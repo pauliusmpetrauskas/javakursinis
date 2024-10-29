@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kursinis.KursinisDarbas.fxControllers.LoginController">
+   <children>
+      <Button layoutX="342.0" layoutY="324.0" mnemonicParsing="false" onAction="#validateAndConnect" prefHeight="43.0" prefWidth="63.0" text="Login" textFill="RED" />
+      <Button layoutX="88.0" layoutY="324.0" mnemonicParsing="false" onAction="#registerNewUser" prefHeight="43.0" prefWidth="63.0" text="Register" textFill="#f20000" />
+      <QuadCurve controlX="97.0" controlY="-70.0" endX="249.0" fill="DODGERBLUE" layoutX="156.0" layoutY="402.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="422.0" layoutX="-131.0" stroke="#ee0000" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="56.0" layoutY="-158.0" stroke="RED" strokeType="INSIDE" width="406.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="422.0" layoutX="441.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="59.0" layoutY="379.0" stroke="BLACK" strokeType="INSIDE" width="382.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="loginField" layoutX="88.0" layoutY="156.0" prefHeight="43.0" prefWidth="325.0" promptText="Suveskite vardą:" AnchorPane.bottomAnchor="223.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="156.0" />
+      <PasswordField fx:id="passwordField" layoutX="88.0" layoutY="222.0" prefHeight="43.0" prefWidth="325.0" promptText="Suveskite Slaptažodį:" />
+      <ImageView fitHeight="116.0" fitWidth="226.0" layoutX="135.0" layoutY="46.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/Java-Logo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="103.0" layoutY="59.0" prefHeight="32.0" prefWidth="325.0" text="Parduotuvė Kursinis darbas">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="104.0" layoutY="104.0" prefHeight="27.0" prefWidth="292.0" text="Paulius Mantrimas Petrauskas" textFill="#c90f0f">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
